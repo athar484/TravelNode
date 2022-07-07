@@ -10,6 +10,8 @@ var express = require('express'),
     next();
   });
 
+
+
   app.get('/quotes', function (req, res) {
     let origin= req.query.origin;
     let destination = req.query.destination;
